@@ -1,11 +1,14 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
+/* ==========================================================================
+   apuntes.html
+   ========================================================================== */
+/*body{
 	font-family: 'Open Sans', 'sans-serif';
-	background-color: #d1d1d1;
+	background-color: #d1d1d1;*/
 /*	font-size: 16px;*/
-}
+/*}
 .navbar-nav>li>.dropdown-menu{
 	margin-top: 20px;
 	border-top-left-radius: 4px;
@@ -49,17 +52,7 @@ body{
 	top: -17px;
 	left: 237px;
 	z-index: 8px;
-}
-
-
-
-
-
-
-
-
-
-
+}*/
 
 /*.color1{
 	color: #ff4444;
@@ -78,14 +71,41 @@ body{
 }
 .app{
 	font-size: 50px;
-
 }*/
 
+/* ==========================================================================
+   Index.html
+   ========================================================================== */
 
-
- 
-
-
+.app-header{
+	background: url("../img/img1.jpg") no-repeat center top fixed;
+	font-family: "avenir", Futura, Helvetica, sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding-bottom: 80px;
+}
+.app-navbar{
+	background-color: rgba(0,0,0,0,6);
+	border-radius: 0;
+}
+.app-link{
+	color: white;
+	text-shadow: none;
+}
+.app-link:hover{
+	color: white;
+}
+.app-nav>li>a{
+	color: white;
+	text-shadow: none;
+}
+.app-nav>li>a:hover{
+	color: white;
+	background-color: #000;
+}
+.app-icon{
+	background-color: #fff;
+}
 
 
 
